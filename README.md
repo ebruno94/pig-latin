@@ -13,15 +13,10 @@ A website that translates any user inputted sentence into Pig Latin.
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
 | **Program does nothing when presented with non-alphabetical character**| User input: "3" | Output: "3" |
-
 | **Program adds 'ay' to single letter words that begin with a vowel** | User input: "i" | Output: "iay" |
-
 | **Program adds '-way' to words starting with a vowel**| User Input: "Eager" | Output: "Eagerway" |
-
 | **If a word begins with 1 or more consonants, program will move all consecutive consonants to the end, and add "ay"**| Input: "Trade" | Output: "adeTray" |
-
 | **If the first consonants of the word include 'qu', program will move the 'u' along with the 'q', and then add 'ay' to the end** | Input: "Quick" | Output: "ickQuay" |
-
 | **If a word begins with a 'y', program treats 'y' as a consonant, and not a vowel**| Input: "You" | Output: "ouYay" |
 
 ## Setup/Installation Requirements
